@@ -1,0 +1,5 @@
+# requirements.txt
+flask==3.0.0
+pytest==8.0.0       # For unit testing
+requests==2.32.0    # For making HTTP requests (if you build client scripts)
+pip freeze > requirements.txt  #to generate automatically
